@@ -69,7 +69,6 @@ hr{
 }
 
 .shadow{
-    /* text-shadow: 2px 4px 4px var(--color-primary) */
     text-shadow: 1px 1px white
 }
 .roboto{
@@ -86,27 +85,4 @@ hr{
 
 .padding{
     padding: 10px;
-}
-
-/* -------abonnenter------ */
-
-.abonnenter{
-    flex-direction: column;
-    align-items: center;
-    font-family: var(--font-header);
-    word-break: break-word;
-    
-}
-
-.red-button{
-    background-color: var(--font-red);
-}
-
-.abon-grey{
-    color: var(--color-primary)
-}
-
-.abon-under{
-    color: var(--font-black);
-    text-decoration: underline
 }
