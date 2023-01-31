@@ -1,0 +1,43 @@
+.footer{
+    background-color: var(--color-primary);
+    padding: var(--margin)
+}
+
+.information-mini{
+    width: 100%;
+    margin-top: -20px;
+}
+
+.left-container{
+    flex-direction: column;
+}
+
+.right-container{
+    flex-direction: column;
+    display: block;
+    width: 30vw;
+    padding: 5px;
+    padding-right: 50px;
+}
+
+.end-container{
+    display: flex;
+    flex-direction: column;
+white-space: nowrap;
+}
+
+.input{
+    border-radius: 4px;
+    padding: 5px;
+    border: 2px solid var(--color-primary)
+}
+
+.input-btn{
+    color: var(--color-darkgrey)
+}
+
+.contact-info{
+    background-color: var(--color-primary);
+    flex-direction: column;
+    align-items: center;
+}

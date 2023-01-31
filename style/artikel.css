@@ -1,0 +1,165 @@
+.reklamer{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+  width: 900px;
+  background-color: var(--color-primary)
+}
+
+.annonce{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: absolute;
+    right: 18vw;
+    top: 230px
+}
+
+.abonnement{
+    gap: 10px;
+    color: var(--font-red);
+    font-family: var(--font-header);
+    margin-left: 35vw
+}
+
+.læsetid{
+    color: var(--color-primary);
+    padding-top: 5px;
+}
+
+
+.margin-thin{
+    margin: var(--margin-thin)
+}
+
+.hero-text{
+    width: 45vw;
+    margin-left: 35vw
+}
+
+.help{
+    background-color: fuchsia;
+}
+.caption{
+    margin-left: 7vw;
+    text-align: right;
+}
+
+
+.capicon{
+    position: absolute;
+    bottom: -70px;
+    margin-left: 17vw
+}
+
+.capname{
+    position: absolute;
+    bottom: -87px;
+    left: 400px;
+    
+}
+
+.middagsselskab{
+    margin-right: 18vw;
+   /*  margin-left: 10vw; */
+    width: 100%;
+}
+
+/* Aside article */
+.aside-article{
+    font-family: var(--font-header);
+
+}
+
+.jakob{
+    width: 30px;
+    position: absolute;
+}
+
+.name-jakob{
+    position: absolute;
+    left: 30px;
+    bottom: 285px;
+}
+
+
+
+/* main article */
+.main-article{
+    margin-left: 6vw;
+}
+
+.fa-clock{
+    position: absolute;
+    bottom: 330px
+
+}
+
+.date{
+    position: absolute;
+    left: 200px;
+    
+}
+
+.fa-comments{
+    position: absolute;
+    left: 50vw;
+    bottom: 330px;
+    left: 660px
+}
+
+.kommentarer{
+    position: absolute;
+    left: 45vw;
+}
+
+.line{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.article-container{
+display: flex;
+position: relative;
+
+}
+
+/* buttons */
+
+button{
+    border: 0;
+    padding: 5px 10px;
+    color: white;
+}
+
+.facebook{
+    background-color: #4267B2;
+    margin-left: 400px;
+    position: absolute;
+    bottom: 260px
+    
+}
+
+.tweet{
+    background-color: #1DA1F2;
+    position: absolute;
+    bottom: 260px;
+    left: 630px;
+}
+
+.email{
+    background-color: var(--color-primary);
+    position: absolute;
+    left: 700px;
+    bottom: 260px;
+}
+/* article text */
+.article{
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        max-height:800px;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        content: "";
+        background: -webkit-linear-gradient(#000, #fff);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}

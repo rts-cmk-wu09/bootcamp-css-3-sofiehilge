@@ -1,0 +1,120 @@
+.fik{
+    color: var(--font-red);
+    position: absolute;
+    top: 1700px;
+}
+
+.fa-compass{
+    position: absolute;
+    top: 1723px;
+    left: 430px;
+}
+
+.fa-arrow-left{
+    position: absolute;
+    top: 1723px;
+    left: 1140px;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    top: 1723px;
+    left: 1170px;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* fik du læst links */
+.fikdu{
+    margin: var(--margin)
+}
+
+.image{
+    width: 200vw;
+}
+
+.link-container{
+display: flex;
+justify-content: space-between;
+}
+
+.seneste-nyt{
+    flex-direction: column;
+    width: 100vw;
+}
+
+.article-container{
+flex-direction: row;
+margin: var(--margin)
+}
+
+.abonnement-container{
+   display: grid;
+   grid: auto / repeat(3,1fr);
+   margin-bottom: 200px;
+}
+
+.house{
+    padding-top: 10px;
+}
+
+.forsiden{
+    margin-left: -180px;
+    margin-top: -0.05px;
+}
+
+.top-left{
+    grid-row: 2/ span 1;
+    grid-column: 1/ span 1;
+    padding-right: 5px;
+}
+
+.top-center{
+    grid-row: 2/ span 1;
+    grid-column: 2/span 1;
+    margin-top: 61px;
+    padding-right: 5px;
+}
+
+.top-right{
+    grid-row: 2/ span 1;
+    grid-column: 3/span 1;
+    margin-top: 43px;
+    padding-right: 5px;
+}
+
+.bottom-left{
+    grid-row: 3/ span 1;
+    grid-column: 1/ span 1;
+    padding-right: 5px;
+}
+
+.bottom-center{
+    grid-row: 3/ span 1;
+    grid-column: 2/span 1;
+    padding-right: 5px;
+}
+
+.bottom-right{
+    grid-row: 3/ span 1;
+    grid-column: 3/span 1;
+    padding-right: 5px;
+}
+
+/* seneste nyt */
+
+.seneste{
+    position: absolute;
+    right: 750px
+}
+
+.infor{
+    position: absolute;
+    left: 750px;
+}

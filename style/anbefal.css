@@ -1,0 +1,15 @@
+.anbefal-container{
+    flex-direction: row;
+    margin: var(--margin);
+    padding-bottom: 100px;
+}
+
+.anbefal{
+    width: 130vw;
+    padding-right: 5px;
+}
+
+.fa-image-portrait{
+    color: var(--color-darkgrey);
+    border-radius: 50%;
+}

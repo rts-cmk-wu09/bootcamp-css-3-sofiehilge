@@ -1,0 +1,112 @@
+/* --resets-- */
+
+*{
+    box-sizing: border-box; /* gør at border og padding æder sig ind på elementet som på den måde bliver inden for de f.eks. fastsatte 100% */
+}
+
+html, body, figure{/* hvis du gør dette på * skal resette den på dine p-tags eksempelvis  */
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%; /* Så bliver billedet ikke større end 100%, men kan sagtens være mindre */
+}
+
+/* --base-- */
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex{
+    display: flex;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+h1{
+    margin-left: 5em
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-family: var(--font-header);
+}
+
+h4{
+    font-family: var(--font-header);
+}
+
+hr{
+    border: 1px dashed var(--color-primary)
+}
+
+.grey{
+    color: var(--color-primary);
+}
+
+.darkgrey{
+    color: var(--color-darkgrey)
+}
+
+.red{
+    color: var(--font-red);
+}
+
+.black{
+    color: var(--font-black)
+}
+
+.shadow{
+    /* text-shadow: 2px 4px 4px var(--color-primary) */
+    text-shadow: 1px 1px white
+}
+.roboto{
+    font-family: var(--font-header);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.width{
+    margin: var(--margin);
+}
+
+.padding{
+    padding: 10px;
+}
+
+/* -------abonnenter------ */
+
+.abonnenter{
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-header);
+    word-break: break-word;
+    
+}
+
+.red-button{
+    background-color: var(--font-red);
+}
+
+.abon-grey{
+    color: var(--color-primary)
+}
+
+.abon-under{
+    color: var(--font-black);
+    text-decoration: underline
+}

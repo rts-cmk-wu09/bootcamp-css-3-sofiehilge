@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+@import url('variables.css');
+@import url('base.css');
+@import url('style/menu.css');
+@import url('style/artikel.css');
+@import url('style/links.css');
+@import url('style/anbefal.css');
+@import url('style/footer.css');

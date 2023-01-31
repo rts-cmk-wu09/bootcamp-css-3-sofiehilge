@@ -1,0 +1,11 @@
+:root{
+    --font-header: 'Roboto', sans-serif;
+
+    --font-black: black;
+    --font-red: red;
+    --color-primary: lightgrey;
+    --color-darkgrey: grey;
+
+    --margin: 0 20em 0 20em;
+    --margin-thin: 0 8.6em 0 16.5em;
+}
